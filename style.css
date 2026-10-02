@@ -1,0 +1,256 @@
+body {
+    padding: auto;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+}
+
+.blue {
+    background-color: #1768e8;
+    width: 50%;
+    height: 100vh;
+}
+
+.white {
+    background-color: white;
+    width: 50%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    gap: 0px;
+}
+
+.image img {
+    width: 130px;
+    height: 28px;
+    margin-top: 70px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    border-color: white;
+    margin: 70px;
+}
+
+header h1 {
+    color: white;
+    margin-left: -3rem;
+    font-size: 28px;
+}
+
+.laf{
+    margin: 70px;
+    margin-top: -3rem;
+    background-color: rgba(255, 255, 255, 0.086);
+    color: white;
+    border-radius: 50px;
+    padding: 5px;
+    width: fit-content;
+    font-size: 15px;
+}
+
+.off {
+    margin: 70px;
+    margin-top: -3rem;
+    color: white;
+    font-size: 21px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.words {
+    margin: 70px;
+    margin-top: -3rem;
+    color: rgba(255, 255, 255, 0.822);
+    font-size: 19px;
+}
+
+.guid {
+    margin: 130px;
+    margin-top: -2rem;
+    color: white;
+}
+.guid i{
+    margin: -60px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: #2b78f3;
+    border: 13px solid #2b78f3;
+    border-radius: 50%;
+}
+.guid h4{
+    margin-top: -2rem;
+}
+.guid p{
+    margin-top: -1rem;
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 18px;
+}
+.trac{
+    margin: 130px;
+    margin-top: -7rem;
+    color: white;
+}
+.trac i{
+     margin: -60px;
+    margin-bottom: 10px;
+    width: 70px;
+    background-color: #2b78f3;
+    border: 12px solid #2b78f3;
+    border-radius: 50%;
+    height: 70px;
+}
+.trac h4{
+    margin-top: -2rem;
+}
+.trac p{
+    color: rgba(255, 255, 255, 0.818);
+    margin-top: -1rem;
+    font-size: 18px;
+}
+.rol{
+    margin: 130px;
+    margin-top: -7rem;
+    color: white;
+}
+.rol i{
+    height: 70px;
+    width: 70px;
+    margin: -60px;
+    margin-bottom: 10px;
+    background-color: #2b78f3;
+    border: 12px solid #2b78f3;
+    border-radius: 50%;
+}
+.rol h4{
+    margin-top: -2rem;
+}
+.rol p{
+    margin-top: -1rem;
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 18px;
+}
+.man{
+    margin: 130px;
+    color: white;
+    margin-top: -7rem;
+    
+}
+.man i{
+    margin: -60px;
+    margin-top: 10px;
+    background-color: #2b78f3;
+    border: 12px solid #2b78f3;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+.man h4{
+    margin-top: -2rem;
+}
+.man p{
+    margin-top: -1rem;
+    color: rgba(255, 255, 255, 0.777);
+    font-size: 18px;
+}
+.last{
+    margin: 70px;
+    color: rgba(255, 255, 255, 0.747);
+    margin-top: -7rem;
+    font-size: 16px;
+}
+
+.back{
+    margin: 255px;
+    margin-top: 230px;
+    color: black;
+}
+.net{
+    margin: 180px;
+    margin-top: -15rem;
+    color: black;
+}
+.sys{
+    margin: 345px;
+    margin-top: -11rem;
+    color: black;
+}
+.mail{
+    margin: 170px;
+    margin-top: -19rem;
+}
+.user{
+    margin: 170px;
+    margin-top: -10rem;
+}
+.user input{
+    border: 2px solid rgba(0, 0, 0, 0.164);
+    border-radius: 30px;
+    width: 400px;
+    height: 48px;
+    font-size: 15px;
+    padding: 0 18px ;
+    outline-color: #1768e8;
+    text-transform: capitalize;
+}
+.pass{
+    margin: 170px;
+    margin-top: -9rem;
+    color: #000000;
+}
+.for{
+    display: flex;
+    justify-content: right;
+    margin-top: -12rem;
+    margin-right: 180px;
+    color: #1768e8;
+}
+.word{
+    margin: 170px;
+    margin-top: 15px;
+} 
+.word input{
+    border: 2px solid rgba(0, 0, 0, 0.243);
+    border-radius: 30px;
+    width: 400px;
+    height: 48px;
+    padding: 0px 18px;
+    outline-color: #1768e8;
+}
+.tto{
+    margin: 170px;
+    margin-top: -9rem;
+}
+.tto button{
+    border: 2px solid #1768e8;
+    border-radius: 30px;
+    width: 400px;
+    height: 48px;
+    background-color: #1768e8;
+    color: white;
+    font-size: 15px;
+}
+.rep{
+    display: flex;
+    justify-content: center;
+    margin-top: -9.5rem;
+    font-size: 14px;
+    color: #1768e8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dea{
+    display: flex;
+    justify-content: center;
+    margin-top: -2rem;
+    font-size: 14px;
+    color: #1768e8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
